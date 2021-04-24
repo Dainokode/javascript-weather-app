@@ -1,5 +1,5 @@
 // API Key
-const APIKEY = "BFuGgT8VIsaUKZtLn8XxzE2diVPFl1RV";
+const APIKEY = "";
 
 const fetchCity = async (city) => {
     // City endpoint
