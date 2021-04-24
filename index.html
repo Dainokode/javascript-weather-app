@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">Weather Forecast</h1>
+        <!-- form -->
+        <div class="form-wrapper">
+            <form>
+                <label>Enter a location for weather information</label>
+                <input type="text" name="search" required>
+            </form>
+            <!-- card - info output -->
+            <div class="card hide">
+                <div class="card-image">
+                    <img src="" alt="">
+                </div>
+                <div class="card-icon"></div>
+                <div class="card-text">
+                    <h2 class="city">City Name</h2>
+                    <small class="condition">Cloudy</small>
+                    <h1 class="temp">Temp 0 °C</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="getWeather.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
